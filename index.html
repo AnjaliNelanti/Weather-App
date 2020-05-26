@@ -1,25 +1,33 @@
 <html>
     <head>
         <title>Weather App</title>
-        <!-- <link rel="stylesheet" href="style.css"> -->
+        <link rel="stylesheet" href="style.css"> 
     </head>
     <body>
-        <div>Weather App</div>
-        <div>
-            <h1>please select the city</h1>
-            <p>date</p>
-            <h1>climatic conditions</h1>
-            <h2>temperature</h2>
-            <button>celsius</button>
-            <button>farenheit</button>
+        <div class="leftPart">
+            <div class="centered">
+            <h1 class="appTitle">Weather App</h1>
+            </div>
+        </div>
+        <div class="rightPart">
+            <div class="centered">
+            <h1 id="city">please select the city</h1>
+            <p id="dateAndTime">date</p>
+            <h1 id="climate">climatic condition</h1>
+            <h2 id="temperature">temperature</h2>
+            <button class="celsius" onclick="getCelsius()">&#8451</button>
+            <button class="farenheit" onclick="getFarenheit()">&#8457</button></br>
+            <label for="list"> select your city</select></label></br>
             <select id="list">
                 <option value="Hyd,TS">Hyd,TS</option>
-                <option value="Mumbai,Maharastra">Hyd,TS</option>
-                <option value="chennai,TN">Hyd,TS</option>
-                <option value="Banglore,Karnataka">Hyd,TS</option>
-                <option value="surat,Gujarat">Hyd,TS</option>
-            </select>       
+                <option value="Mumbai,Maharastra">Mumbai,Maharatra</option>
+                <option value="chennai,TN">Chennai,TamilNadu</option>
+                <option value="Banglore,Karnataka">Banglore,Karnataka</option>
+                <option value="surat,Gujarat">surat,Gujarat</option>
+            </select>
+            <input type="button" value="submit" onclick="getWeather()"> 
+            </div>     
         </div>
-        <!-- <script src="weather.js"></script> -->
+        <script src="weather.js"></script>
     </body>
 </html>
