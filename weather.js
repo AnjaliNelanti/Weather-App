@@ -30,7 +30,7 @@ function getFarenheit()
     var weatherInSelectedCity=weatherInCities.find(e=>{
         return e.city==selectedCityFromList
 })
-document.getElementById("temperature").innerText=(weatherInSelectedCity.temperature*9/5)-32;
+document.getElementById("temperature").innerText=(weatherInSelectedCity.temperature*9/5)+32;
 }
 function getCelsius()
 {
