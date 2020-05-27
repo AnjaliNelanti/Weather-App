@@ -6,7 +6,8 @@ position: fixed;
 top: 0;
 left: 0;
 text-align: center;
-background-color: aqua;
+background-color:violet;
+font-style: oblique;
 }
 .rightPart
 {
@@ -23,4 +24,8 @@ text-align: left;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
+}
+#city
+{
+    color: tomato;
 }

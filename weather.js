@@ -6,9 +6,9 @@ var hours=date.getHours()
 var min=date.getMinutes()
 document.getElementById("dateAndTime").innerText=(today+hours+":"+min)
 var weatherInCities=[
-    {city:"Hyd,TS",climaticCondition:"Sunny",temperature:45},
+    {city:"Hyd,Telangana",climaticCondition:"Sunny",temperature:45},
     {city:"Manali,HimachalPradesh",climaticCondition:"cool",temperature:19},
-    {city:"chennai,TN",climaticCondition:"Humid",temperature:34},
+    {city:"chennai,TamilNadu",climaticCondition:"Humid",temperature:34},
     {city:"Banglore,Karnataka",climaticCondition:"Humid",temperature:33},
     {city:"Delhi,Delhi",climaticCondition:"Sunny",temperature:44}
 ]
