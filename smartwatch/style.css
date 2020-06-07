@@ -1,0 +1,107 @@
+.r1{
+    position: relative;
+    width: 50px;
+    height: 53px;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    /* Gray 3 */
+    
+    background: #828282;
+    text-align:center;
+    }
+    
+    .r2
+    {
+    position: relative;
+    width: 108px;
+    height: 58px;
+    top:50%;
+    left:50%;
+    border-radius:20px;
+    text-align:center;
+    
+    /* Gray 1 */
+    
+    background: #333333;
+    transform:translate(-50%,-50%);
+    }
+    
+    .r3
+    {
+    position: relative;
+    width: 50px;
+    height: 58px;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    /* Gray 2 */
+    
+    background: #828282;
+    }
+    .centered
+    {
+    top:50%;
+    left:50%;
+    text-align:center;
+    /* transform:translate(-50%,-50%) */
+    }
+    #home
+    {
+       text-align: left;
+       color: teal;
+       left:0;
+       float:left;
+       bottom: 0;
+       
+    }
+    #time
+    {
+        color: violet;
+        text-align: center;
+    }
+    #message
+    {
+        width: auto;
+        padding: 0;
+        color: tomato;
+        float: left;
+    }
+    #myAudio
+    {
+        width: auto;
+        padding: 0;
+        float: left;
+    
+    }
+.leftPart
+{
+height: 100%;
+width: 50%;
+position: fixed;
+top: 0;
+left: 0;
+text-align: center;
+background-color:violet;
+font-style: oblique;
+}
+.rightPart
+{
+height: 100%;
+width: 50%;
+position: fixed;
+top: 0;
+right: 0;
+text-align: left;
+}
+#stopwatch
+{
+    float: left;
+     width: auto;
+     padding: 0;
+    color: tomato;
+    
+        
+} 
+
+    
